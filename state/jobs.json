@@ -1,4 +1,168 @@
 {
   "schema_version": "1.0",
-  "jobs": []
+  "jobs": [
+    {
+      "id": "upwork-20260416-001",
+      "platform": "upwork",
+      "title": "Lead AI Developer — System Infrastructure & Quality Owner for D2C E-commerce Brand (Claude Code)",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Lead-Developer-System-Infrastructure-Quality-Owner-for-D2C-commerce-Brand-Claude-Code_~022042586717925401424/",
+      "status": "applied",
+      "discovered_at": "2026-04-16T00:00:00Z",
+      "applied_at": "2026-04-16T00:00:00Z",
+      "keywords_matched": ["Claude API", "AI agent development", "workflow automation"],
+      "budget": {
+        "type": "hourly",
+        "hours_per_week": "30+",
+        "duration": "6+ months",
+        "contract_to_hire": true
+      },
+      "scores": {
+        "skill_match": 90,
+        "budget_attractiveness": 80,
+        "client_trust": 72,
+        "win_probability": 60,
+        "composite": 76
+      },
+      "proposal": {
+        "text": "You're running a D2C brand at scale — €30K/day in ad spend, 8K+ subscribers — and you need an AI system that actually thinks, not just shuffles data between tools. The challenge is building sub-agents that reliably handle market intelligence, competitor analysis, and creative testing without constant babysitting.\n\nI've spent the last two years building production Claude API systems after 23 years in mission-critical engineering (C#/DirectX combat simulation for Japan's defense sector). My current stack is exactly what this project demands: Python, Claude API, MCP servers, and FastAPI. I recently completed UTokyo's GCI program focused on machine learning.\n\nHere's how I'd approach this: First, architect a supervisor agent layer in Claude Code that manages specialized sub-agents — each with clearly scoped tools via MCP. Market intelligence and trend monitoring agents would feed structured data into your decision pipeline. The landing page and creative testing agents would operate on a feedback loop, pulling performance metrics and iterating autonomously. Everything connects through well-defined API contracts so the system remains maintainable as you scale.\n\nWhat sets me apart: I build systems that run unattended in production. My background in mission-critical simulation means I design for failure modes and edge cases from day one — not as an afterthought. I'm based in Japan (UTC+9), which gives you coverage during your off-hours.\n\nLet's schedule a 30-minute call to walk through your current architecture and map out the agent topology. I can have a technical proposal within 48 hours.",
+        "word_count": 228,
+        "submitted": false,
+        "dry_run": true
+      },
+      "history": [
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "discovered",
+          "note": "Found via Upwork search: Claude API, AI agent development. Composite score 76."
+        },
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "proposal_drafted",
+          "note": "Proposal drafted (228 words). dry_run=true, NOT submitted."
+        }
+      ]
+    },
+    {
+      "id": "upwork-20260416-002",
+      "platform": "upwork",
+      "title": "AI Automation Engineer – n8n, Claude Code & API Integrations",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Automation-Engineer-n8n-Claude-Code-API-Integrations_~022034043757444027443/",
+      "status": "applied",
+      "discovered_at": "2026-04-16T00:00:00Z",
+      "applied_at": "2026-04-16T00:00:00Z",
+      "keywords_matched": ["Claude API", "AI automation", "workflow automation"],
+      "budget": {
+        "type": "hourly",
+        "hours_per_week": "30+",
+        "duration": "6+ months",
+        "contract_to_hire": true
+      },
+      "scores": {
+        "skill_match": 85,
+        "budget_attractiveness": 78,
+        "client_trust": 70,
+        "win_probability": 65,
+        "composite": 75
+      },
+      "proposal": {
+        "text": "You need someone who can take your documented SOPs and turn them into n8n workflows that actually run themselves — not fragile automations that break the moment an edge case appears. That's a systems engineering problem, not just a drag-and-drop exercise.\n\nI bring 23 years of production systems engineering to this. My recent work focuses on Claude API integration and autonomous agent architecture — building systems where Claude handles complex decision-making within structured workflows. My stack: Python, Claude API, MCP servers, FastAPI, PostgreSQL, Playwright. I completed UTokyo's GCI program in machine learning, which gives me the foundation to implement intelligent routing and decision logic within your automation pipelines.\n\nMy approach for your agency: audit your existing SOPs to identify automation candidates ranked by ROI. Then build n8n workflows with Claude Code nodes handling the judgment calls — parsing unstructured inputs, making routing decisions, generating contextual outputs. Each workflow gets proper error handling, retry logic, and monitoring so you know immediately when something needs attention rather than discovering failures days later.\n\nThe difference between me and most automation freelancers: I come from mission-critical engineering where system downtime has real consequences. I treat your agency operations with the same rigor — comprehensive logging, graceful degradation, and clear escalation paths when the AI hits its limits.\n\nAvailable for 30+ hours/week starting immediately. Let's do a quick call to review your top 3 SOPs and I'll map out the automation architecture.",
+        "word_count": 225,
+        "submitted": false,
+        "dry_run": true
+      },
+      "history": [
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "discovered",
+          "note": "Found via Upwork search: Claude API, AI automation, workflow automation. Composite score 75."
+        },
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "proposal_drafted",
+          "note": "Proposal drafted (225 words). dry_run=true, NOT submitted."
+        }
+      ]
+    },
+    {
+      "id": "upwork-20260416-003",
+      "platform": "upwork",
+      "title": "Python + Firebird + Claude API Automation",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Upwork-Job-Post-Python-Firebird-Claude-API-Automation_~022035446144189412190/",
+      "status": "discovered",
+      "discovered_at": "2026-04-16T00:00:00Z",
+      "keywords_matched": ["Claude API", "Python automation"],
+      "budget": {
+        "type": "fixed",
+        "amount_usd": 1200
+      },
+      "scores": {
+        "skill_match": 75,
+        "budget_attractiveness": 55,
+        "client_trust": 65,
+        "win_probability": 70,
+        "composite": 66
+      },
+      "history": [
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "discovered",
+          "note": "Found via Upwork search: Claude API, Python automation. Composite score 66. Below proposal threshold."
+        }
+      ]
+    },
+    {
+      "id": "upwork-20260416-004",
+      "platform": "upwork",
+      "title": "Python Developer – Automation, Scraping & AI (Part-Time)",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Python-Developer-Automation-Scraping-Part-Time_~022031373848063584605/",
+      "status": "discovered",
+      "discovered_at": "2026-04-16T00:00:00Z",
+      "keywords_matched": ["Python automation", "web scraping Python", "AI automation"],
+      "budget": {
+        "type": "hourly",
+        "hours_per_week": "part-time"
+      },
+      "scores": {
+        "skill_match": 78,
+        "budget_attractiveness": 60,
+        "client_trust": 60,
+        "win_probability": 55,
+        "composite": 63
+      },
+      "history": [
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "discovered",
+          "note": "Found via Upwork search: Python automation, web scraping. Composite score 63. Below proposal threshold."
+        }
+      ]
+    },
+    {
+      "id": "upwork-20260416-005",
+      "platform": "upwork",
+      "title": "Claude Code AI Agent Architect – Build a Fully Autonomous 24/7 YouTube Content Production Pipeline",
+      "url": "https://www.upwork.com/freelance-jobs/apply/Claude-Code-Agent-Architect-Build-Fully-Autonomous-YouTube-Content-Production-Pipeline_~022021773044817109399/",
+      "status": "discovered",
+      "discovered_at": "2026-04-16T00:00:00Z",
+      "keywords_matched": ["Claude API", "AI agent development"],
+      "budget": {
+        "type": "fixed",
+        "amount_usd": 1500
+      },
+      "scores": {
+        "skill_match": 88,
+        "budget_attractiveness": 55,
+        "client_trust": 50,
+        "win_probability": 50,
+        "composite": 61
+      },
+      "history": [
+        {
+          "timestamp": "2026-04-16T00:00:00Z",
+          "action": "discovered",
+          "note": "Found via Upwork search: Claude API, AI agent development. Composite score 61. Posted Feb 2026, may be stale. Below proposal threshold."
+        }
+      ]
+    }
+  ]
 }

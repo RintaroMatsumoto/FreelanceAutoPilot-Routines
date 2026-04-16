@@ -1,0 +1,44 @@
+{
+  "dry_run": true,
+  "platforms": {
+    "upwork": {
+      "enabled": true,
+      "search_keywords": [
+        "AI automation",
+        "Python automation",
+        "Claude API",
+        "AI agent development",
+        "MCP server",
+        "workflow automation",
+        "web scraping Python"
+      ],
+      "max_applies_per_run": 3,
+      "default_hourly_rate_usd": 40,
+      "default_bid_usd": 500
+    },
+    "fiverr": {
+      "enabled": true,
+      "mode": "gig_only",
+      "note": "PerimeterX blocks headless Hunt. Gig (passive/Farm) only."
+    },
+    "crowdworks": {
+      "enabled": false,
+      "note": "Domestic market. Enable when ready."
+    },
+    "lancers": {
+      "enabled": false,
+      "note": "Domestic market. Enable when ready."
+    }
+  },
+  "notifications": {
+    "slack_webhook": "",
+    "notify_on": ["new_job_found", "proposal_sent", "contract_started", "payment_received", "error"]
+  },
+  "finance": {
+    "exchange_rate_usd_jpy": 155,
+    "upwork_fee_percent": 10,
+    "fiverr_fee_percent": 20,
+    "tax_withholding_us_percent": 0,
+    "note": "W-8BEN Article 7 reduces US withholding to 0%"
+  }
+}
